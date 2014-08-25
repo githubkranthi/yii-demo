@@ -1,0 +1,1568 @@
+2014/08/20 11:20:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "post".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(270): CController->missingAction('post')
+#1 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('post')
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('api/post/create')
+#3 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/post/create
+---
+2014/08/20 11:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "posts".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(270): CController->missingAction('posts')
+#1 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('posts')
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('api/posts/view')
+#3 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/posts/view
+---
+2014/08/20 11:25:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "post".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(270): CController->missingAction('post')
+#1 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('post')
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('api/post/view')
+#3 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/post/view
+---
+2014/08/20 11:25:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "post".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(270): CController->missingAction('post')
+#1 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('post')
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('api/post/view')
+#3 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/post/view
+---
+2014/08/20 11:26:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "post".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(270): CController->missingAction('post')
+#1 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('post')
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('api/post/view/i...')
+#3 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/post/view/id/4
+---
+2014/08/20 11:26:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "post".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(270): CController->missingAction('post')
+#1 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('post')
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('api/post/view/4')
+#3 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/post/view/4
+---
+2014/08/20 13:32:15 [error] [php] Undefined index: SeenBefore (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php:75)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+2014/08/20 13:32:17 [error] [php] Undefined index: SeenBefore (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php:75)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+2014/08/20 13:32:26 [error] [php] Undefined index: SeenBefore (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php:75)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+2014/08/20 13:32:28 [error] [php] Undefined index: SeenBefore (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php:75)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+2014/08/20 13:32:41 [error] [php] Undefined index: SeenBefore (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php:75)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+2014/08/20 13:35:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "model".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(270): CController->missingAction('model')
+#1 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('model')
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('api/model/posts...')
+#3 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/model/posts/view/id/14
+---
+2014/08/20 14:06:09 [error] [php] Undefined variable: username (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:417)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/view/model/posts/id/2?Accept%20=application/json;
+2014/08/21 06:07:39 [error] [exception.CException] exception 'CException' with message 'Property "User.salt" is not defined.' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\db\ar\CActiveRecord.php(143): CComponent->__get('salt')
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\User.php(80): CActiveRecord->__get('salt')
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\components\UserIdentity.php(21): User->validatePassword('')
+#3 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii-demos\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii-demos\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii-demos\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii-demos\framework\web\widgets\CActiveForm.php(835): CModel->validate(NULL)
+#8 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(83): CActiveForm::validate(Object(LoginForm))
+#9 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+HTTP_REFERER=http://localhost/yii-demos/demos/yii-blog-rest/index.php/site/login
+---
+2014/08/21 06:07:41 [error] [exception.CException] exception 'CException' with message 'Property "User.salt" is not defined.' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\db\ar\CActiveRecord.php(143): CComponent->__get('salt')
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\User.php(80): CActiveRecord->__get('salt')
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii-demos\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii-demos\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii-demos\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(92): CModel->validate()
+#8 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+HTTP_REFERER=http://localhost/yii-demos/demos/yii-blog-rest/index.php/site/login
+---
+2014/08/21 06:07:41 [error] [exception.CException] exception 'CException' with message 'Property "User.salt" is not defined.' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\db\ar\CActiveRecord.php(143): CComponent->__get('salt')
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\User.php(80): CActiveRecord->__get('salt')
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii-demos\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii-demos\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii-demos\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii-demos\framework\web\widgets\CActiveForm.php(835): CModel->validate(NULL)
+#8 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(83): CActiveForm::validate(Object(LoginForm))
+#9 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+HTTP_REFERER=http://localhost/yii-demos/demos/yii-blog-rest/index.php/site/login
+---
+2014/08/21 06:07:56 [error] [exception.CException] exception 'CException' with message 'Property "User.salt" is not defined.' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\db\ar\CActiveRecord.php(143): CComponent->__get('salt')
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\User.php(80): CActiveRecord->__get('salt')
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\components\UserIdentity.php(21): User->validatePassword('')
+#3 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii-demos\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii-demos\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii-demos\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii-demos\framework\web\widgets\CActiveForm.php(835): CModel->validate(NULL)
+#8 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(83): CActiveForm::validate(Object(LoginForm))
+#9 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+HTTP_REFERER=http://localhost/yii-demos/demos/yii-blog-rest/index.php/site/login
+---
+2014/08/21 06:07:59 [error] [exception.CException] exception 'CException' with message 'Property "User.salt" is not defined.' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\db\ar\CActiveRecord.php(143): CComponent->__get('salt')
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\User.php(80): CActiveRecord->__get('salt')
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii-demos\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii-demos\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii-demos\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(92): CModel->validate()
+#8 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+HTTP_REFERER=http://localhost/yii-demos/demos/yii-blog-rest/index.php/site/login
+---
+2014/08/21 06:07:59 [error] [exception.CException] exception 'CException' with message 'Property "User.salt" is not defined.' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\db\ar\CActiveRecord.php(143): CComponent->__get('salt')
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\User.php(80): CActiveRecord->__get('salt')
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii-demos\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii-demos\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii-demos\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii-demos\framework\web\widgets\CActiveForm.php(835): CModel->validate(NULL)
+#8 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(83): CActiveForm::validate(Object(LoginForm))
+#9 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+HTTP_REFERER=http://localhost/yii-demos/demos/yii-blog-rest/index.php/site/login
+---
+2014/08/21 06:11:26 [error] [exception.CException] exception 'CException' with message 'Property "User.salt" is not defined.' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\db\ar\CActiveRecord.php(143): CComponent->__get('salt')
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\User.php(80): CActiveRecord->__get('salt')
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\components\UserIdentity.php(21): User->validatePassword('')
+#3 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii-demos\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii-demos\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii-demos\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii-demos\framework\web\widgets\CActiveForm.php(835): CModel->validate(NULL)
+#8 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(83): CActiveForm::validate(Object(LoginForm))
+#9 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+HTTP_REFERER=http://localhost/yii-demos/demos/yii-blog-rest/index.php/site/login
+---
+2014/08/21 06:11:27 [error] [exception.CException] exception 'CException' with message 'Property "User.salt" is not defined.' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\db\ar\CActiveRecord.php(143): CComponent->__get('salt')
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\User.php(80): CActiveRecord->__get('salt')
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii-demos\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii-demos\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii-demos\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(92): CModel->validate()
+#8 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+HTTP_REFERER=http://localhost/yii-demos/demos/yii-blog-rest/index.php/site/login
+---
+2014/08/21 06:11:27 [error] [exception.CException] exception 'CException' with message 'Property "User.salt" is not defined.' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\db\ar\CActiveRecord.php(143): CComponent->__get('salt')
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\User.php(80): CActiveRecord->__get('salt')
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii-demos\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii-demos\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii-demos\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii-demos\framework\web\widgets\CActiveForm.php(835): CModel->validate(NULL)
+#8 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(83): CActiveForm::validate(Object(LoginForm))
+#9 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+HTTP_REFERER=http://localhost/yii-demos/demos/yii-blog-rest/index.php/site/login
+---
+2014/08/21 06:11:53 [error] [exception.CException] exception 'CException' with message 'Property "User.salt" is not defined.' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\db\ar\CActiveRecord.php(143): CComponent->__get('salt')
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\User.php(80): CActiveRecord->__get('salt')
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\components\UserIdentity.php(21): User->validatePassword('')
+#3 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii-demos\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii-demos\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii-demos\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii-demos\framework\web\widgets\CActiveForm.php(835): CModel->validate(NULL)
+#8 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(83): CActiveForm::validate(Object(LoginForm))
+#9 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+HTTP_REFERER=http://localhost/yii-demos/demos/yii-blog-rest/index.php/site/login
+---
+2014/08/21 06:11:58 [error] [exception.CException] exception 'CException' with message 'Property "User.salt" is not defined.' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\db\ar\CActiveRecord.php(143): CComponent->__get('salt')
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\User.php(80): CActiveRecord->__get('salt')
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii-demos\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii-demos\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii-demos\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii-demos\framework\web\widgets\CActiveForm.php(835): CModel->validate(NULL)
+#8 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(83): CActiveForm::validate(Object(LoginForm))
+#9 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+HTTP_REFERER=http://localhost/yii-demos/demos/yii-blog-rest/index.php/site/login
+---
+2014/08/21 06:12:03 [error] [exception.CException] exception 'CException' with message 'Property "User.salt" is not defined.' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\db\ar\CActiveRecord.php(143): CComponent->__get('salt')
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\User.php(80): CActiveRecord->__get('salt')
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii-demos\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii-demos\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii-demos\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(92): CModel->validate()
+#8 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/site/login
+HTTP_REFERER=http://localhost/yii-demos/demos/yii-blog-rest/index.php/site/login
+---
+2014/08/21 07:31:58 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:398)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/view/posts/id/5
+2014/08/21 07:32:24 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:398)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/view/model/posts/id/5
+2014/08/21 07:32:43 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:398)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/view/model/posts/id/1
+2014/08/21 07:33:14 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:399)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/view/model/posts/id/1
+2014/08/21 07:35:59 [error] [php] Undefined index: PHP_AUTH_USER (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:399)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/view/model/posts/id/1
+2014/08/21 07:36:11 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/view/model/posts/id/1
+2014/08/21 07:36:59 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/posts
+2014/08/21 09:31:53 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/post/view?id=14
+2014/08/22 08:56:05 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/post/view?id=14
+2014/08/22 08:57:06 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/posts
+2014/08/22 08:57:11 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 08:57:31 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 08:58:21 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 08:58:23 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 08:58:32 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 08:58:36 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 08:59:06 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 08:59:07 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 08:59:07 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 08:59:07 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 08:59:07 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 08:59:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apiuser/login".' in C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('apiuser/login')
+#1 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/apiuser/login
+---
+2014/08/22 08:59:58 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 09:00:40 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 09:00:41 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 09:00:41 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 09:00:41 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 09:01:14 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 09:01:14 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 09:01:15 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 09:01:15 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 09:01:15 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 09:01:15 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 09:01:18 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 09:21:15 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user
+2014/08/22 09:21:22 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 09:21:44 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/view/model/posts/id/1
+2014/08/22 09:21:46 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/view/model/posts
+2014/08/22 09:21:53 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/posts
+2014/08/22 09:21:56 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/posts
+2014/08/22 09:22:30 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '5' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `tbl_post` (`id`, `title`, `content`, `tags`, `status`, `create_time`, `author_id`, `update_time`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+2014/08/22 09:22:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '5' for key 'PRIMARY'' in C:\xampp\htdocs\yii-demos\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii-demos\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php(134): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): ApiController->actionCreate()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('api/create')
+#9 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/posts?Accept%20=application/json;
+---
+2014/08/22 09:24:23 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/posts
+2014/08/22 09:24:29 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user
+2014/08/22 09:24:45 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user
+2014/08/22 09:24:46 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user
+2014/08/22 09:24:46 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user
+2014/08/22 09:25:09 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:400)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user
+2014/08/22 09:28:00 [error] [php] Undefined index: controller (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+2014/08/22 09:28:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userapi".' in C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('userapi')
+#1 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/userapi/
+---
+2014/08/22 09:31:57 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:402)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 09:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "templateapi/login".' in C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('templateapi/log...')
+#1 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/templateapi/login
+---
+2014/08/22 10:35:35 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:402)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/posts
+2014/08/22 10:35:38 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:402)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/posts
+2014/08/22 10:35:48 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:402)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/lists/posts
+2014/08/22 10:38:57 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:402)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/posts
+2014/08/22 10:50:50 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "_sendResponse".' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(54): CComponent->__call('_sendResponse', Array)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(54): UserController->_sendResponse(501, 'Mode <b>create<...')
+#2 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+---
+2014/08/22 10:50:51 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "_sendResponse".' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(54): CComponent->__call('_sendResponse', Array)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(54): UserController->_sendResponse(501, 'Mode <b>create<...')
+#2 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+---
+2014/08/22 10:50:51 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "_sendResponse".' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(54): CComponent->__call('_sendResponse', Array)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(54): UserController->_sendResponse(501, 'Mode <b>create<...')
+#2 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+---
+2014/08/22 10:50:51 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "_sendResponse".' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(54): CComponent->__call('_sendResponse', Array)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(54): UserController->_sendResponse(501, 'Mode <b>create<...')
+#2 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+---
+2014/08/22 10:52:56 [error] [php] include(SiteController.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii-demos\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(47): spl_autoload_call()
+#1 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): UserController->runAction()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): UserController->run()
+#6 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+2014/08/22 10:56:29 [error] [php] include(SiteController.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii-demos\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(47): spl_autoload_call()
+#1 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): UserController->runAction()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): UserController->run()
+#6 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+2014/08/22 10:56:30 [error] [php] include(SiteController.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii-demos\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(47): spl_autoload_call()
+#1 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): UserController->runAction()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): UserController->run()
+#6 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+2014/08/22 10:56:46 [error] [php] include(SiteController.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii-demos\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(47): spl_autoload_call()
+#1 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): UserController->runAction()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): UserController->run()
+#6 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+2014/08/22 10:56:47 [error] [php] include(SiteController.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii-demos\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(47): spl_autoload_call()
+#1 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): UserController->runAction()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): UserController->run()
+#6 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+2014/08/22 10:56:47 [error] [php] include(SiteController.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii-demos\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(47): spl_autoload_call()
+#1 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): UserController->runAction()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): UserController->run()
+#6 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+2014/08/22 10:57:08 [error] [php] Missing argument 1 for CController::__construct(), called in C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php on line 47 and defined (C:\xampp\htdocs\yii-demos\framework\web\CController.php:110)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): UserController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): UserController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+2014/08/22 10:57:09 [error] [php] Missing argument 1 for CController::__construct(), called in C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php on line 47 and defined (C:\xampp\htdocs\yii-demos\framework\web\CController.php:110)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): UserController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): UserController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+2014/08/22 10:57:55 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(106): CController->render('login', Array)
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(48): SiteController->actionLogin()
+#3 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#9 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+---
+2014/08/22 11:00:09 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(106): CController->render('login', Array)
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(48): SiteController->actionLogin()
+#3 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#9 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+---
+2014/08/22 11:00:10 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(106): CController->render('login', Array)
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(48): SiteController->actionLogin()
+#3 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#9 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+---
+2014/08/22 11:00:10 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(106): CController->render('login', Array)
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(48): SiteController->actionLogin()
+#3 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#9 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+---
+2014/08/22 11:00:14 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(106): CController->render('login', Array)
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(48): SiteController->actionLogin()
+#3 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#9 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+---
+2014/08/22 11:00:37 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(106): CController->render('login', Array)
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(48): SiteController->actionLogin()
+#3 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#9 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+---
+2014/08/22 11:00:38 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(106): CController->render('login', Array)
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(48): SiteController->actionLogin()
+#3 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#9 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+---
+2014/08/22 11:00:38 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(106): CController->render('login', Array)
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(48): SiteController->actionLogin()
+#3 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#9 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+---
+2014/08/22 11:00:38 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(106): CController->render('login', Array)
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(48): SiteController->actionLogin()
+#3 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#9 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+---
+2014/08/22 11:00:38 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(106): CController->render('login', Array)
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(48): SiteController->actionLogin()
+#3 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#9 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+---
+2014/08/22 11:00:40 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\SiteController.php(106): CController->render('login', Array)
+#2 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(48): SiteController->actionLogin()
+#3 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#9 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+---
+2014/08/22 11:00:44 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:402)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 11:01:08 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:402)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 11:01:37 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:402)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 11:01:38 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:402)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 11:01:38 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:402)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 11:01:39 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:402)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/user/login
+2014/08/22 11:01:55 [error] [php] include(SiteController.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii-demos\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\UserController.php(48): spl_autoload_call()
+#1 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): UserController->runAction()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): UserController->run()
+#6 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/login
+2014/08/22 11:11:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/site/login')
+#3 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/site/login
+---
+2014/08/22 11:12:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/site/login')
+#3 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/site/login
+---
+2014/08/22 11:12:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/site/login')
+#3 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/site/login
+---
+2014/08/22 11:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/site/login')
+#3 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/site/login
+---
+2014/08/22 11:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('user/site/login')
+#3 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/user/site/login
+---
+2014/08/22 11:39:14 [error] [php] Missing argument 1 for CController::__construct(), called in C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php on line 52 and defined (C:\xampp\htdocs\yii-demos\framework\web\CController.php:110)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/comment
+2014/08/22 11:40:28 [error] [php] Missing argument 1 for CController::__construct(), called in C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php on line 52 and defined (C:\xampp\htdocs\yii-demos\framework\web\CController.php:110)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/comment
+2014/08/22 11:42:09 [error] [php] Missing argument 1 for CController::__construct(), called in C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php on line 52 and defined (C:\xampp\htdocs\yii-demos\framework\web\CController.php:110)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/comment
+2014/08/22 11:43:12 [error] [php] Undefined variable: commentsController (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:55)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/comment
+2014/08/22 11:43:21 [error] [exception.CException] exception 'CException' with message 'CommentController and its behaviors do not have a method or closure named "getAllComments".' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php(55): CComponent->__call('getAllComments', Array)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php(55): CommentController->getAllComments()
+#2 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): ApiController->actionList()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('api/list')
+#8 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/comment
+---
+2014/08/22 11:44:17 [error] [exception.CException] exception 'CException' with message 'CommentController and its behaviors do not have a method or closure named "getAllComments".' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php(55): CComponent->__call('getAllComments', Array)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php(55): CommentController->getAllComments()
+#2 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): ApiController->actionList()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('api/list')
+#8 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/comment
+---
+2014/08/22 11:45:18 [error] [exception.CException] exception 'CException' with message 'CommentController and its behaviors do not have a method or closure named "getAllComments".' in C:\xampp\htdocs\yii-demos\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php(55): CComponent->__call('getAllComments', Array)
+#1 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php(55): CommentController->getAllComments()
+#2 C:\xampp\htdocs\yii-demos\framework\web\actions\CInlineAction.php(49): ApiController->actionList()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('api/list')
+#8 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/comment
+---
+2014/08/22 11:45:36 [error] [php] Undefined variable: rows (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:71)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/comment
+2014/08/22 11:46:07 [error] [php] Undefined variable: rows (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:71)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/comment
+2014/08/22 11:47:50 [error] [php] Undefined variable: rows (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:72)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/posts
+2014/08/22 12:21:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getAll".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(270): CController->missingAction('getAll')
+#1 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('getAll')
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('post/getAll')
+#3 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/post/getAll
+---
+2014/08/22 12:24:11 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:411)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/post/getAll
+2014/08/22 12:24:58 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:411)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/posts/getAll
+2014/08/22 12:25:27 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:412)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/posts/getAll
+2014/08/22 12:26:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "wlgview".' in C:\xampp\htdocs\yii-demos\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(270): CController->missingAction('wlgview')
+#1 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): CController->run('wlgview')
+#2 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController('api/wlgview')
+#3 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/posts/2/4
+---
+2014/08/23 07:50:22 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\protected\controllers\ApiController.php:408)
+Stack trace:
+#0 C:\xampp\htdocs\yii-demos\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii-demos\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\xampp\htdocs\yii-demos\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\xampp\htdocs\yii-demos\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii-demos\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii-demos\demos\yii-blog-rest\index.php(16): CWebApplication->run()
+REQUEST_URI=/yii-demos/demos/yii-blog-rest/index.php/api/post/getById/2
